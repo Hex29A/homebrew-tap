@@ -2,28 +2,28 @@
 class Vapx < Formula
   desc "Axis camera management CLI via VAPIX"
   homepage "https://vapx.29a.se"
-  version "0.35.0"
+  version "0.35.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Hex29A/vapx/releases/download/v0.35.0/vapx-aarch64-apple-darwin"
-      sha256 "d0bbeba3d86b92e8eb59ad3499b9d6d03df0311e2353bea2199441419aa166b3"
+      url "https://github.com/Hex29A/vapx/releases/download/v0.35.1/vapx-aarch64-apple-darwin"
+      sha256 "34c058b4baca5683714c6bc119205cb335bf37b5336be0acb56a4a00d61b726c"
     end
     on_intel do
-      url "https://github.com/Hex29A/vapx/releases/download/v0.35.0/vapx-x86_64-apple-darwin"
-      sha256 "85babfa45a39b44df6c3be1e75be9c2bca240e0d4b6b694c5272628fac9dc129"
+      url "https://github.com/Hex29A/vapx/releases/download/v0.35.1/vapx-x86_64-apple-darwin"
+      sha256 "5d50455b03e67d5058025796fa666542160a036f08a0598720f29ea380eb741d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Hex29A/vapx/releases/download/v0.35.0/vapx-aarch64-unknown-linux-musl"
-      sha256 "d3980b9ccf559a67c4844db6e1c0fff781ab54d679f7ceac8f78f910330a5d61"
+      url "https://github.com/Hex29A/vapx/releases/download/v0.35.1/vapx-aarch64-unknown-linux-musl"
+      sha256 "40c419cff42b9357c8e5467e68a1c808200ec1fedf77dbcddc67020cb4160cbe"
     end
     on_intel do
-      url "https://github.com/Hex29A/vapx/releases/download/v0.35.0/vapx-x86_64-unknown-linux-musl"
-      sha256 "811d0aa03ed214c4da0b78a98888b4fdc7a72120d7a604f7ebf09052233bb18b"
+      url "https://github.com/Hex29A/vapx/releases/download/v0.35.1/vapx-x86_64-unknown-linux-musl"
+      sha256 "db1308f654fc3bc0695c19ef381821ebc84dbf2c905ab09f5dffad2e1e9a9c7a"
     end
   end
 
